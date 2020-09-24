@@ -8,8 +8,8 @@ const router = express.Router();
 const { ArticleController } = require('../controllers');
 
 // Declaramos las rutas de nuestros endpoint junto con su funcion correspondiente
-router.get('/api/sps/helloworld/v1', ArticleController.read);
-router.post('/api/sps/helloworld/v1/create', ArticleController.create);
+router.get('/read', ArticleController.read);
+router.post('/create', ArticleController.create);
 
 // Exportamos nuestra constante
 module.exports = router;
