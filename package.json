@@ -1,0 +1,19 @@
+{
+  "name": "sps-practica1",
+  "version": "1.0.0",
+  "description": "Practica #1 para entrar a la consultora SPS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalo1898developer/sps-practica1.git"
+  },
+  "author": "Eduardo Rodriguez Ricardez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lalo1898developer/sps-practica1/issues"
+  },
+  "homepage": "https://github.com/lalo1898developer/sps-practica1#readme"
+}
