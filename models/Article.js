@@ -1,3 +1,4 @@
+// Definimos el modelo que utilziaremos para nuestra API
 const Article = [
     {
         id: 1,
@@ -61,4 +62,5 @@ const Article = [
     },
 ];
 
+// Exportamos este modelo para ser exportado nuevamente por nuestro archivo index
 module.exports = Article;
