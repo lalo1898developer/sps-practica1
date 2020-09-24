@@ -1,5 +1,7 @@
+// Importa la constante que contiene los metodos de los servicios para el articulo
 const { ArticleService } = require('../service');
 
+// Exportamos y definimos los metodos asincronos del controlador
 module.exports = {
     read: async (req, res) => {
       try {
