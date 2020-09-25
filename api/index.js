@@ -21,7 +21,7 @@ const swaggerOptions = {
             servers: ['http://localhost:3000']
         }
     },
-    apis: ['./routers/ItemRouter.js']
+    apis: ['./routers/ItemArticle.js']
 };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
